@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-color: rgb(37, 37, 37);
+    font-family: 'Inter', sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 2rem;
+}
+
+.title {
+    font-size: 2rem;
+    color: rgb(125, 221, 101);
+    font-weight: bold;
+    padding-bottom: 1.5rem;
+}
+
+.subtitle {
+    font-size: 0.9rem;
+    color: #888888;
+}
+
+main {
+    max-width: 780px;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 3rem;
+
+}
+
+.box {
+    background-color: rgb(66, 66, 66);
+    box-shadow: 0 1px 2px rgba(132, 148, 165, 0.4);
+    border-radius: 8px;
+    margin-bottom: 3rem;
+}
+
+.password {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.password .text {
+    flex: 1;
+}
+
+.password .text input {
+    background-color: rgb(186, 255, 215);
+    border-radius: 7px;
+    font-size: 3rem;
+    border: none;
+    outline: none;
+    cursor: default;
+    height: 52px;
+    width: 100%;
+    transition: all 0.2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: rgb(43, 42, 42);
+}
+
+i {
+    color: rgb(125, 221, 101);
+    font-size: 42px;
+}
+
+.actions button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+
+}
+
+.security-indicator {
+    height: 10px;
+    background-color: #888888;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.security-indicator .bar {
+    height: 10px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+    transition: all 0.2s;
+}
+
+.security-indicator .bar.completed {
+    border-top-right-radius: 0;
+}
+
+.security-indicator .bar.critical {
+    background-color: #eb5757;
+}
+
+.security-indicator .bar.warning {
+    background-color: #f2c94c;
+}
+
+.security-indicator .bar.safe {
+    background-color: #27ae60;
+}
