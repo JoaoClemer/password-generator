@@ -3,4 +3,5 @@ Meu foco nessa aplicação era explorar ainda mais a manipulação do DOM, conso
 > ![img](https://user-images.githubusercontent.com/56324622/218894568-72027d98-7113-4649-8515-53778c514820.png)
 
 Nessa aplicação foi o meu primeiro contato com resposividade, dessa forma a aplicação funciona perfeitamente em todos dispositivos.
+<br>
 ![imgmobile](https://user-images.githubusercontent.com/56324622/218895204-71dfd400-480f-4e03-848a-1f7975134f46.png)
